@@ -2,9 +2,34 @@
 
 const titulo = document.getElementById('miTitulo')
 const btn = document.getElementById('miBtn')
+const parrafos = document.querySelector('.p-content')
 
-console.log(titulo)
-console.log(btn)
+function saludar (){
+    titulo.classList.add('superTitulo')
+    titulo.innerText = 'Te saludamos desde JavaScript 😎'
+}
+
+btn.addEventListener('click',saludar)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //Los elementos del HTML son interpretados como objetos
